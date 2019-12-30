@@ -15,6 +15,6 @@ describe("render page", function() {
 	});
 
 	it("page exists", function() {
-		expect(document.getElementById("main")).toBeInTheDocument();
+		expect(document.getElementById("mains")).toBeInTheDocument();
 	});
 });
