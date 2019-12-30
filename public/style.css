@@ -175,3 +175,14 @@ a:hover {
 .social-link:not(:last-child) {
 	margin-bottom: 0.75rem;
 }
+
+@media only screen and (max-width: 720px) {
+	#title {
+		font-size: 1.5rem;
+	}
+
+	#content {
+		width: 100%;
+		font-size: 0.75rem;
+	}
+}
