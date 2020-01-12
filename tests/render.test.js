@@ -21,6 +21,6 @@ describe("render page", function() {
 		expect(document.getElementById("main")).toBeInTheDocument();
 		expect(document.getElementById("title")).toBeInTheDocument();
 		expect(document.getElementById("content")).toBeInTheDocument();
-		expect(document.getElementById("socials")).toBeInTheDocument();
+		expect(document.getElementById("social")).toBeInTheDocument();
 	});
 });
